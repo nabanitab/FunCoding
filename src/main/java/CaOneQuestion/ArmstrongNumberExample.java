@@ -14,10 +14,9 @@ public class ArmstrongNumberExample {
     }
 
     public static boolean isArmstrongNumber(int number) {
+        //test
         int originalNumber = number;
-
         int sum = 0;
-
         int power = String.valueOf(number).length(); //This line calculates the number of digits in the input number.It converts the number to a string using
 
         while (number > 0) { //The loop continues as long as there are digits remaining in the number.
